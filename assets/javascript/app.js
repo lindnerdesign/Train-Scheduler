@@ -2,7 +2,6 @@
 //ID divs ID='EmployeeName' / ID='Role' / ID='Data' / ID='Rate
 
 // Initialize Firebase
-// Initialize Firebase
 var config = {
   apiKey: "AIzaSyBKNdZo-Gc4LMKTaLrpNi7UBT-zKZYo1XA",
   authDomain: "train-scheduler-c79fa.firebaseapp.com",
@@ -66,9 +65,9 @@ database.ref().on("child_added", function(childsnapshot){
     var StartD = childsnapshot.val().StartDate;
     var monthsWorked = moment().diff(moment(StartD), "months")
     var monthlyR = parseInt(childsnapshot.val().MonthlyRate)
-    console.log(monthsWorked)
+    //console.log(monthsWorked)
     var TotalBilled = monthsWorked * monthlyR;
-    console.log(monthlyR)
+    //console.log(monthlyR)
 
     $("#table > tbody").append("<tr> <td>" + childsnapshot.val().Name + "</td>"
                         + "<td>" + childsnapshot.val().Role + "</td>"
