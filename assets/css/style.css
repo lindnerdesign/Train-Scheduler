@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background-image: url(../images/connect.png);
 }
 
 thead {
@@ -20,7 +21,13 @@ tr {
 .panel-heading {
   background-color: #0c2739;
   padding: 10px;
-  color: #ffffff;
+  color: #b59d7c;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.panel-primary {
+  background-color: #ffffff;
 }
 
 #logo {
@@ -29,4 +36,11 @@ tr {
 }
 
 
-/* Form */
+#add-train {
+  background-color: #0c2739;
+  color: #b59d7c;
+}
+
+.container-fluid {
+  margin-bottom: 25px;
+}
