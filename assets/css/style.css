@@ -11,23 +11,22 @@ tr {
   border-top: 1px solid #000000;
 }
 
-
-.jumbotrondiv{
+#jumbotron{
   text-align: center;
+  background-color: #0c2739;
+  height: 350px;
 }
 
-#EmployeeName, #Role, #Date, #Rate {
-  color: ##767A79;
+.panel-heading {
+  background-color: #0c2739;
+  padding: 10px;
+  color: #ffffff;
 }
 
-.title {
-    background: #3bafba;
-    padding: 10px 0px 10px 10px;
-    color: white;
+#logo {
+  margin: -20px;
+  width: 500px;
 }
 
-th{
-    padding: 0 4em 0 0;
-}
 
 /* Form */
